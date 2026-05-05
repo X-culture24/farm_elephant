@@ -21,7 +21,6 @@ include 'includes/header.php';
     <div class="container">
         <div class="row align-items-center g-5">
             <div class="col-lg-6" data-aos="fade-right">
-                <h2 class="section-title mb-4">Technological Infrastructure</h2>
                 <p class="lead mb-4">
                     <strong>Our farm is engineered as a controlled dairy environment where every step from milking to coverage is instrumented, monitored, and optimized for performance.</strong> Technology is not an add-on; it is the foundation of our hygiene, consistency, and output discipline.
                 </p>

@@ -33,9 +33,8 @@ include 'includes/header.php';
                     <img src="<?php echo $community_images[0]; ?>" alt="Community Development" class="img-fluid rounded shadow">
                 <?php else: ?>
                     <div class="placeholder-image bg-light rounded d-flex align-items-center justify-content-center" style="height: 400px;">
-                        <div class="text-center text-muted">
+                        <div class="text-center">
                             <i class="fas fa-users fa-3x mb-3"></i>
-                            <p>Community development image</p>
                         </div>
                     </div>
                 <?php endif; ?>
@@ -45,38 +44,38 @@ include 'includes/header.php';
 </section>
 
 <!-- Training Programs -->
-<section class="training-programs py-5 bg-light">
+<section class="training-programs py-5" style="background: #ffffff;">
     <div class="container">
         <div class="row">
             <div class="col-12 text-center mb-5" data-aos="fade-up">
                 <h2 class="section-title">Training Programs Integrated into CSR</h2>
-                <p class="lead text-white" style="font-weight: 500;">Our agri-tourism model includes structured training aligned with our CSR goals. We offer practical exposure for students, researchers, and professional partners. Supervised sessions ensure participants gain high-standard technical expertise into the region's agricultural future.</p>
+                <p class="lead" style="color: #2c3e50; font-weight: 500;">Our agri-tourism model includes structured training aligned with our CSR goals. We offer practical exposure for students, researchers, and professional partners. Supervised sessions ensure participants gain high-standard technical expertise into the region's agricultural future.</p>
             </div>
         </div>
         
         <div class="row g-4">
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                <div class="training-card p-4 rounded shadow h-100" style="background: rgba(255, 255, 255, 0.1);">
-                    <h4 class="mb-3 text-white" style="font-weight: 700;">Training Programs Integrated into CSR</h4>
-                    <p class="mb-4 text-white" style="font-weight: 500;">
+                <div class="training-card p-4 rounded shadow h-100" style="background: #f8f9fa; border-left: 4px solid #d4af37;">
+                    <h4 class="mb-3" style="color: #2c3e50; font-weight: 700;">Training Programs Integrated into CSR</h4>
+                    <p class="mb-4" style="color: #2c3e50; font-weight: 500;">
                         Our agri-tourism model includes structured training aligned with our CSR goals. We offer practical exposure for students, researchers, and professional partners. Supervised sessions ensure participants gain high-standard technical expertise into the region's agricultural future.
                     </p>
                 </div>
             </div>
             
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-                <div class="training-card p-4 rounded shadow h-100" style="background: rgba(255, 255, 255, 0.1);">
-                    <h4 class="mb-3 text-white" style="font-weight: 700;">Local Trainees Fully Trained and Absorbed</h4>
-                    <p class="mb-4 text-white" style="font-weight: 500;">
+                <div class="training-card p-4 rounded shadow h-100" style="background: #f8f9fa; border-left: 4px solid #d4af37;">
+                    <h4 class="mb-3" style="color: #2c3e50; font-weight: 700;">Local Trainees Fully Trained and Absorbed</h4>
+                    <p class="mb-4" style="color: #2c3e50; font-weight: 500;">
                         Multiple individuals from the local community have completed training and joined our operations. Now working alongside our team, they are embedding real technical expertise into the region's agricultural future. This approach reduces unemployment while embedding real technical expertise into the region's agricultural future.
                     </p>
                 </div>
             </div>
             
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-                <div class="training-card p-4 rounded shadow h-100" style="background: rgba(255, 255, 255, 0.1);">
-                    <h4 class="mb-3 text-white" style="font-weight: 700;">Clients Partnerships & Educational Institutions</h4>
-                    <p class="mb-4 text-white" style="font-weight: 500;">
+                <div class="training-card p-4 rounded shadow h-100" style="background: #f8f9fa; border-left: 4px solid #d4af37;">
+                    <h4 class="mb-3" style="color: #2c3e50; font-weight: 700;">Clients Partnerships & Educational Institutions</h4>
+                    <p class="mb-4" style="color: #2c3e50; font-weight: 500;">
                         We partner with New Dairies and regional colleges to support curriculum-linked exposure. Our farm is an accredited learning site. These partnerships align education with real-dairy systems building a pipeline of capable, industry-ready talent.
                     </p>
                 </div>
@@ -86,12 +85,12 @@ include 'includes/header.php';
 </section>
 
 <!-- Client Partnerships -->
-<section class="client-partnerships py-5 bg-light">
+<section class="client-partnerships py-5" style="background: #ffffff;">
     <div class="container">
         <div class="row align-items-center g-5">
             <div class="col-lg-6" data-aos="fade-right">
-                <h2 class="section-title mb-4 text-white">Client Partnerships</h2>
-                <p class="lead mb-4 text-white" style="font-weight: 500;">
+                <h2 class="section-title mb-4">Client Partnerships</h2>
+                <p class="lead mb-4" style="color: #2c3e50; font-weight: 500;">
                     Building strategic partnerships with local cooperatives, schools, 
                     and community organizations to maximize impact.
                 </p>
@@ -102,8 +101,8 @@ include 'includes/header.php';
                             <i class="fas fa-handshake fa-2x" style="color: #d4af37;"></i>
                         </div>
                         <div class="partnership-content">
-                            <h5 class="mb-2 text-white">Cooperative Development</h5>
-                            <p class="mb-0 text-white" style="font-weight: 400;">
+                            <h5 class="mb-2" style="color: #2c3e50; font-weight: 700;">Cooperative Development</h5>
+                            <p class="mb-0" style="color: #2c3e50; font-weight: 500;">
                                 Supporting the formation and growth of dairy cooperatives 
                                 to strengthen local farming communities.
                             </p>
@@ -115,8 +114,8 @@ include 'includes/header.php';
                             <i class="fas fa-school fa-2x" style="color: #d4af37;"></i>
                         </div>
                         <div class="partnership-content">
-                            <h5 class="mb-2 text-white">Educational Programs</h5>
-                            <p class="mb-0 text-white" style="font-weight: 400;">
+                            <h5 class="mb-2" style="color: #2c3e50; font-weight: 700;">Educational Programs</h5>
+                            <p class="mb-0" style="color: #2c3e50; font-weight: 500;">
                                 Collaborating with schools and universities to provide 
                                 practical agricultural education and research opportunities.
                             </p>
@@ -128,8 +127,8 @@ include 'includes/header.php';
                             <i class="fas fa-seedling fa-2x" style="color: #d4af37;"></i>
                         </div>
                         <div class="partnership-content">
-                            <h5 class="mb-2 text-white">Sustainability Initiatives</h5>
-                            <p class="mb-0 text-white" style="font-weight: 400;">
+                            <h5 class="mb-2" style="color: #2c3e50; font-weight: 700;">Sustainability Initiatives</h5>
+                            <p class="mb-0" style="color: #2c3e50; font-weight: 500;">
                                 Joint projects focused on environmental conservation 
                                 and sustainable agricultural practices.
                             </p>

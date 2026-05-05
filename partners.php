@@ -16,19 +16,7 @@ include 'includes/header.php';
     </div>
 </section>
 
-<!-- Partners Introduction -->
-<section class="partners-intro py-5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 mx-auto text-center" data-aos="fade-up">
-                <h2 class="section-title mb-4">Clients and Partners</h2>
-                <p class="lead text-muted mb-4">
-                    We are a fully mechanised, family-owned dairy farm producing clean, traceable milk with zero human contact. Since 1999, we've combined tradition, technology, and care to deliver consistent quality to discerning clients and partners across the dairy value chain.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
+<!-- Partners Introduction removed - content shown in Partners Grid below -->
 
 <!-- Partners Grid -->
 <section class="partners-grid py-5 bg-light">
@@ -76,16 +64,16 @@ include 'includes/header.php';
                 </a>
             </div>
             
-            <!-- Partner 3: Brookside -->
+            <!-- Partner 3: Bles Dairies -->
             <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                <a href="https://www.brooksidedairy.com" target="_blank" class="text-decoration-none">
+                <a href="https://www.blesdairies.co.ke" target="_blank" class="text-decoration-none">
                     <div class="partner-card bg-white p-4 rounded shadow text-center h-100 hover-lift">
                         <div class="partner-logo mb-3">
-                            <img src="assets/images/partners/partner-3.png" alt="Brookside Dairies" class="img-fluid" style="max-height: 100px;">
+                            <img src="assets/images/partners/partner-3.png" alt="Bles Dairies" class="img-fluid" style="max-height: 100px;">
                         </div>
-                        <h5 class="mb-3 text-dark">Brookside Dairies</h5>
+                        <h5 class="mb-3 text-dark">Bles Dairies</h5>
                         <p class="text-muted small">
-                            Collaborative improvements and CSR-focused partnerships, particularly around supply chain excellence.
+                            Collaborative improvements in agrotourism and CSR-focused training programs, particularly around trained farm professionals.
                         </p>
                     </div>
                 </a>

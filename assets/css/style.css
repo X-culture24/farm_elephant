@@ -14,13 +14,13 @@
 
 /* Typography */
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'DM Serif Display', serif;
     font-weight: 600;
     line-height: 1.2;
 }
@@ -37,11 +37,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Navigation */
 .navbar {
-    background: rgba(45, 90, 39, 0.95);
-    backdrop-filter: blur(10px);
+    background: transparent;
     transition: all 0.3s ease;
     padding: 0.5rem 0;
-    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: none;
 }
 
 .navbar.scrolled {
