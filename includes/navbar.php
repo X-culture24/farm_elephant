@@ -18,6 +18,9 @@
                 <li class="nav-item"><a class="nav-link" href="gallery.php">Gallery</a></li>
                 <li class="nav-item"><a class="nav-link" href="partners.php">Partners</a></li>
                 <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="shop/index.php?page=products" style="color: var(--accent-color) !important; font-weight: 700;">
+                    <i class="fas fa-shopping-bag me-1"></i>Shop
+                </a></li>
             </ul>
         </div>
     </div>

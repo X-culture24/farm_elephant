@@ -725,3 +725,70 @@ section {
 .contact-page .social-icon:hover {
     background: #d4af37;
 }
+
+
+/* ===== SHOP / E-COMMERCE STYLES ===== */
+
+/* Product Cards */
+.product-card {
+    transition: all 0.3s ease;
+    border: 1px solid #e9ecef;
+}
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12) !important;
+    border-color: var(--accent-color);
+}
+
+/* Cart Table */
+.cart-table th { background: var(--primary-color); color: #fff; }
+.cart-table td { vertical-align: middle; }
+
+/* Checkout */
+.checkout-form .form-control:focus,
+.checkout-form .form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(45,90,39,0.15);
+}
+
+/* Order Timeline */
+.delivery-timeline .dot { flex-shrink: 0; }
+
+/* Auth Pages */
+.auth-card { border-radius: 16px; }
+.auth-card .form-control:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(45,90,39,0.15);
+}
+
+/* Shop Navbar Badge */
+.cart-badge {
+    position: absolute;
+    top: -6px;
+    right: -8px;
+    background: var(--accent-color);
+    color: #2c3e50;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 0.65rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+/* POS Product Cards */
+.product-card-pos { border: 2px solid #dee2e6; border-radius: 8px; }
+.product-card-pos:hover { border-color: var(--accent-color) !important; }
+
+/* Admin Overrides */
+.btn-primary {
+    background: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: #fff !important;
+}
+.btn-primary:hover {
+    background: var(--dark-green) !important;
+    border-color: var(--dark-green) !important;
+}
