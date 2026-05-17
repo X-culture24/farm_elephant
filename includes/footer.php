@@ -76,12 +76,8 @@
     <!-- AOS Animation JS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/your-kit-id.js" crossorigin="anonymous"></script>
-    
     <!-- Custom JS -->
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/animations.js"></script>
+    <script src="<?= $GLOBALS['site_root'] ?? '' ?>/assets/js/main.js"></script>
     
 </body>
 </html>
