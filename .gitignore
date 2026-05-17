@@ -1,0 +1,30 @@
+# Environment & secrets
+.env
+.env.local
+.env.production
+
+# Database credentials - keep db.php tracked but without hardcoded values
+# shop/includes/db.php  <- do NOT ignore this, it's safe now
+
+# Composer
+vendor/
+composer.phar
+
+# Uploads (user content)
+shop/uploads/
+
+# Generated receipts
+shop/uploads/receipts/
+
+# PHP cache
+*.cache
+.php_cs.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
