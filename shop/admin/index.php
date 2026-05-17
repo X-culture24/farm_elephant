@@ -1,6 +1,7 @@
 <?php
 // Admin Front Controller
 require_once __DIR__ . '/../../vendor/autoload.php';
+require_once __DIR__ . '/../../shop/includes/config.php';
 require_once __DIR__ . '/../../shop/includes/db.php';
 require_once __DIR__ . '/../../shop/includes/helpers.php';
 require_once __DIR__ . '/../../shop/includes/auth.php';
